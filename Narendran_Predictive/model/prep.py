@@ -15,7 +15,7 @@ api_client = HfApi(token=os.getenv("HF_TOKEN"))
 OUTPUT_PATH = "Narendran_Predictive/model"
 os.makedirs(OUTPUT_PATH, exist_ok=True)
 
-DATA_FILE = "/Narendran_Predictive/data/engine_data.csv"
+DATA_FILE = "Narendran_Predictive/data/engine_data.csv"
 HF_REPO = "Narendranh/narendran_predictive_data"
 
 # ---- Step 1: Load Dataset ----

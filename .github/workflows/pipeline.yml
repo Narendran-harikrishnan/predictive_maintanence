@@ -65,7 +65,7 @@ jobs:
       - name: Train Model
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: python Narendran_Predictive/model_building/train.py
+        run: python Narendran_Predictive/train.py
 
   deploy-hosting:
     runs-on: ubuntu-latest
